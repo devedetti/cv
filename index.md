@@ -4,11 +4,11 @@
 
 Buenos Aires, Argentina
 
-[ibenedetti@yandex.com](mailto:ibenedetti@yandex.com) · [+54 237 410 1690](tel:+542374101690) · [LinkedIn](https://www.linkedin.com/in/devedetti/)
+[ibenedetti@yandex.com](mailto:ibenedetti@yandex.com) · [+54 237 410 1690](tel:+542374101690) · [LinkedIn](https://www.linkedin.com/in/devedetti/) · [GitHub](https://github.com/devedetti)
 
 ---
 
-## Summary
+## Resumen
 
 Senior Backend / Infrastructure Engineer con +20 años diseñando, desplegando y operando sistemas productivos.
 
@@ -20,25 +20,25 @@ Perfil pragmático, orientado a estabilidad, performance y simplicidad operativa
 
 ---
 
-## Core Skills
+## Habilidades
 
-**Languages:** Python, Go, PHP, Node.js
+**Lenguajes:** Python, Go, PHP, Node.js
 
 **Frameworks:** Django, NestJS, Laravel
 
-**Infra/DevOps:** Docker, CI/CD, GitHub Actions, Jenkins, ArgoCD, Linux (VPS)
+**Infra/DevOps:** Docker, Kubernetes, CI/CD, GitHub Actions, Jenkins, ArgoCD, Linux (VPS)
 
-**Databases:** PostgreSQL, MySQL/MariaDB, Redis, MongoDB
+**Bases de datos:** PostgreSQL, MySQL/MariaDB, Redis, MongoDB
 
-**Async & Messaging:** Celery, RabbitMQ
+**Async y mensajería:** Celery, RabbitMQ
 
-**Architecture:** REST APIs, Microservices, Legacy migrations, Observability, Production troubleshooting
+**Arquitectura:** REST APIs, Microservicios, Migraciones legacy, Observabilidad (Grafana), Troubleshooting productivo
 
 **Cloud:** AWS
 
 ---
 
-## Experience
+## Experiencia
 
 ### Banco Comafi — Backend Engineer (Fondos Comunes de Inversión)
 **2025 – Presente**
@@ -97,7 +97,7 @@ Perfil pragmático, orientado a estabilidad, performance y simplicidad operativa
 - Diseño e implementación de APIs y servicios Django para plataforma telco.
 - Procesamiento asíncrono de eventos de facturación y entrega de contenidos SMS.
 - Integración con sistemas de billing y proveedores externos.
-- Operación Linux en producción, troubleshooting y optimización de performance.:w
+- Operación Linux en producción, troubleshooting y optimización de performance.
 
 ---
 
