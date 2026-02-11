@@ -1,3 +1,20 @@
 theme: jekyll-theme-primer
-title: Mi sitio
-description: docs y cosas
+title: CV
+description: Senior Backend / Infrastructure Engineer especializado en Python, Linux, CI/CD y sistemas en producción
+
+url: "https://ignacio.local.net.ar"
+baseurl: ""
+
+lang: es
+
+author:
+  name: Ignacio Juan Martín Benedetti
+  email: ibenedetti@yandex.com
+
+social:
+  links:
+    - https://linkedin.com/in/devedetti
+    - https://github.com/devedetti
+
+plugins:
+  - jekyll-seo-tag

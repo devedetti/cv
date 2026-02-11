@@ -1,7 +1,9 @@
 # Ignacio Juan Martín Benedetti
 
 **Senior Backend / Infrastructure Engineer**
+
 Buenos Aires, Argentina
+
 [ibenedetti@yandex.com](mailto:ibenedetti@yandex.com) · [+54 237 410 1690](tel:+542374101690) · [LinkedIn](https://www.linkedin.com/in/devedetti/)
 
 ---
@@ -21,11 +23,17 @@ Perfil pragmático, orientado a estabilidad, performance y simplicidad operativa
 ## Core Skills
 
 **Languages:** Python, Go, PHP, Node.js
+
 **Frameworks:** Django, NestJS, Laravel
+
 **Infra/DevOps:** Docker, CI/CD, GitHub Actions, Jenkins, ArgoCD, Linux (VPS)
+
 **Databases:** PostgreSQL, MySQL/MariaDB, Redis, MongoDB
+
 **Async & Messaging:** Celery, RabbitMQ
+
 **Architecture:** REST APIs, Microservices, Legacy migrations, Observability, Production troubleshooting
+
 **Cloud:** AWS
 
 ---
