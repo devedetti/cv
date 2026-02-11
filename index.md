@@ -2,7 +2,7 @@
 
 **Senior Backend / Infrastructure Engineer**
 Buenos Aires, Argentina
-[ibenedetti@yandex.com](mailto:ibenedetti@yandex.com) · [+5492374101690](tel:+5492374101690) · [linkedin.com/in/devedetti](LinkedIn)
+[ibenedetti@yandex.com](mailto:ibenedetti@yandex.com) · [+54 237 410 1690](tel:+542374101690) · [LinkedIn](https://www.linkedin.com/in/devedetti/)
 
 ---
 
@@ -89,4 +89,5 @@ Perfil pragmático, orientado a estabilidad, performance y simplicidad operativa
 - Diseño e implementación de APIs y servicios Django para plataforma telco.
 - Procesamiento asíncrono de eventos de facturación y entrega de contenidos SMS.
 - Integración con sistemas de billing y proveedores externos.
-- Operación Linux en producción, troubleshooting y optimización de performance.
+- Operación Linux en producción, troubleshooting y optimización de performance.:w
+
