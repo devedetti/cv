@@ -4,7 +4,7 @@
 
 Buenos Aires, Argentina
 
-[ignacio@local.net.ar](mailto:ignacio@local.net.ar) · [+54 237 410 1690](tel:+542374101690) · [LinkedIn](https://www.linkedin.com/in/devedetti/) · [GitHub](https://github.com/devedetti) · [PDF](https://github.com/devedetti/cv/releases/latest/download/cv_benedetti_ignacio_latest.pdf)
+[ignacio@local.net.ar](mailto:ignacio@local.net.ar) · [+54 237 410 1690](tel:+542374101690) · [LinkedIn](https://www.linkedin.com/in/devedetti/) · [GitHub](https://github.com/devedetti) · [PDF](https://github.com/devedetti/cv/releases/latest/download/cv_benedetti_ignacio.pdf)
 
 ---
 
