@@ -4,7 +4,7 @@
 
 Buenos Aires, Argentina
 
-[ibenedetti@yandex.com](mailto:ibenedetti@yandex.com) · [+54 237 410 1690](tel:+542374101690) · [LinkedIn](https://www.linkedin.com/in/devedetti/) · [GitHub](https://github.com/devedetti)
+[ignacio@local.net.ar](mailto:ignacio@local.net.ar) · [+54 237 410 1690](tel:+542374101690) · [LinkedIn](https://www.linkedin.com/in/devedetti/) · [GitHub](https://github.com/devedetti)
 
 ---
 
