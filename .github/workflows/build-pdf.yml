@@ -1,0 +1,73 @@
+name: Generate CV PDF and Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic fonts-liberation
+
+      - name: Generate dynamic PDF filename
+        id: pdf_name
+        run: |
+          MONTH=$(date +'%b' | tr '[:upper:]' '[:lower:]')
+          case $MONTH in
+            jan) MONTH="ene" ;;
+            feb) MONTH="feb" ;;
+            mar) MONTH="mar" ;;
+            apr) MONTH="abr" ;;
+            may) MONTH="may" ;;
+            jun) MONTH="jun" ;;
+            jul) MONTH="jul" ;;
+            aug) MONTH="ago" ;;
+            sep) MONTH="sep" ;;
+            oct) MONTH="oct" ;;
+            nov) MONTH="nov" ;;
+            dec) MONTH="dic" ;;
+          esac
+          YEAR=$(date +'%Y')
+          PDF_NAME="cv_benedetti_ignacio_${YEAR}_${MONTH}.pdf"
+          echo "pdf_name=$PDF_NAME" >> $GITHUB_OUTPUT
+          echo "Generated PDF name: $PDF_NAME"
+
+      - name: Convert Markdown to PDF
+        run: |
+          pandoc index.md -o ${{ steps.pdf_name.outputs.pdf_name }} \
+            --pdf-engine=xelatex \
+            -V geometry:margin=0.8in \
+            -V fontsize=10pt \
+            -V linestretch=1.15 \
+            -V mainfont="Liberation Sans" \
+            -V papersize=a4
+
+          cp ${{ steps.pdf_name.outputs.pdf_name }} cv_benedetti_ignacio_latest.pdf
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ${{ steps.pdf_name.outputs.pdf_name }}
+            cv_benedetti_ignacio_latest.pdf
+          generate_release_notes: true
+          body: |
+            ## CV - Ignacio Juan Martín Benedetti
+
+            > PDF del CV generado automáticamente desde `index.md`
+
+            **Descarga:** ${{ steps.pdf_name.outputs.pdf_name }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -4,7 +4,7 @@
 
 Buenos Aires, Argentina
 
-[ignacio@local.net.ar](mailto:ignacio@local.net.ar) · [+54 237 410 1690](tel:+542374101690) · [LinkedIn](https://www.linkedin.com/in/devedetti/) · [GitHub](https://github.com/devedetti)
+[ignacio@local.net.ar](mailto:ignacio@local.net.ar) · [+54 237 410 1690](tel:+542374101690) · [LinkedIn](https://www.linkedin.com/in/devedetti/) · [GitHub](https://github.com/devedetti) · [PDF](https://github.com/devedetti/cv/releases/latest/download/cv_benedetti_ignacio_latest.pdf)
 
 ---
 
@@ -44,6 +44,7 @@ Perfil pragmático, orientado a estabilidad, performance y simplicidad operativa
 **2023 – Presente**
 
 **Fondos Comunes de Inversión (2025 – Presente)**
+
 - Desarrollo de APIs internas e integraciones con el core bancario.
 - Implementación de servicios en Django y Node.js con foco en consistencia transaccional.
 - Integración con sistemas legacy mediante APIs internas y procesos batch.
@@ -51,6 +52,7 @@ Perfil pragmático, orientado a estabilidad, performance y simplicidad operativa
 - Hardening, logging y monitoreo de servicios productivos.
 
 **Nubi — Fintech del Grupo Comafi (2023 – 2025)**
+
 - Mantenimiento y evolución de microservicios en Python (Django/Flask) y Node.js (NestJS).
 - Migración progresiva de servicios Java → Python reduciendo complejidad operativa.
 - Implementación y debugging de pipelines CI/CD para build/test/deploy de contenedores Docker.
@@ -85,12 +87,14 @@ Perfil pragmático, orientado a estabilidad, performance y simplicidad operativa
 **2016 – 2019**
 
 **Technical Lead (2018 – 2019)**
+
 - Liderazgo técnico de equipos Mobile (Java/Swift) y Backend (Python).
 - Definición de estándares, revisiones de arquitectura y code reviews.
 - Implementación de pipelines CI/CD y automatización de builds y releases.
 - Coordinación de despliegues productivos y soporte ante incidentes.
 
 **Backend Engineer (2016 – 2018)**
+
 - Diseño e implementación de APIs y servicios Django para plataforma telco.
 - Procesamiento asíncrono de eventos de facturación y entrega de contenidos SMS.
 - Integración con sistemas de billing y proveedores externos.
