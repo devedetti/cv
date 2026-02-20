@@ -11,15 +11,12 @@ permissions:
 jobs:
   build-pdf:
     runs-on: ubuntu-latest
+    container:
+      image: pandoc/latex:latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Install Pandoc and LaTeX
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-plain-generic fonts-liberation
 
       - name: Generate dynamic PDF filename
         id: pdf_name
