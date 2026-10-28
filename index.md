@@ -40,10 +40,21 @@ Perfil pragmático, orientado a estabilidad, performance y simplicidad operativa
 
 ## Experiencia
 
-### Banco Comafi — Backend Engineer
-**2023 – Presente**
+### Personal Pay — Backend Engineer
+**2026 – Presente**
 
-**Fondos Comunes de Inversión (2025 – Presente)**
+**Pago de Servicios (2026 – Presente)**
+
+- Desarrollo de microservicios en NestJS/TypeScript para la búsqueda de empresas y consulta de facturas mediante integraciones con proveedores de pago.
+- Implementación de dashboards de monitoreo y configuración de alertas en Grafana.
+- Gestión de releases y despliegues a producción.
+
+---
+
+### Banco Comafi — Backend Engineer
+**2023 – 2026**
+
+**Fondos Comunes de Inversión (2025 – 2026)**
 
 - Desarrollo de APIs internas e integraciones con el core bancario.
 - Implementación de servicios en Django y Node.js con foco en consistencia transaccional.
@@ -102,4 +113,4 @@ Perfil pragmático, orientado a estabilidad, performance y simplicidad operativa
 
 ---
 
-##### Última actualización: 2026-02-20 :x
+##### Última actualización: 2026-09-28 :x
